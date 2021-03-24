@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+.navbar-header {
+    height: 80px;
+}
+
+h1 {
+    font-size: 30px;
+    position: absolute;
+    top:0;
+    left: 2%;
+    font-weight: bold;
+}
+
+hr {
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+
+.visible-xs {
+    background-color: black;
+}
+
+.navbar-toggle {
+    padding: 10px 8px;
+    right: 2%;
+}
+
+.navbar-brand a{
+    color: black;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.navbar-default{
+    border-bottom: 1px solid black;
+    background-color: #e7e7e7;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: black;
+}
+
+.navbar-default .navbar-toggle:focus{
+    border-color: black;
+}
+
+ul li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 8px;
+}
+
+.navbar-toggle .icon-bar {
+    width: 35px;
+    height: 6px;
+}
+
+.navbar-default .navbar-toggle .icon-bar:active {
+    background-color: white;
+}
+
+
+.about {
+    background-color: #e7e7e7;
+    padding: 5px 10px;
+    height: 1000px;
+    left: 1%;
+    margin-top: 4vw;
+    overflow: hidden;
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 1.4em;
+}
+
+h2 {
+    margin-top: 5px;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+@media screen and (max-width:767px) {
+    .about {
+        left: 11%;
+    }
+
+    h1 {
+        left: 6%;
+    }
+
+    .navbar-header {
+        border-bottom: 1px solid grey;
+    }
+
+    #collapsable-nav {
+        background-color: white;
+    }
+
+}
